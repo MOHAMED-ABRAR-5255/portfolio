@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Abrar S. K. | Portfolio</title>
+    <meta name="description" content="Portfolio of Mohamed Abrar S. K., Final-year B.Tech student in Electronics and Communication Engineering with practical experience in Embedded Systems, IoT, and Digital Design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    
+    <!-- Noise Texture Overlay -->
+    <div class="noise-overlay"></div>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Abrar<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="cv.pdf" target="_blank" class="nav-link btn-primary-outline">CV</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero & Bento Layout Section -->
+    <section id="hero" class="hero section">
+        <div class="container">
+            <div class="hero-bento fade-in">
+                <div class="hero-text">
+                    <h3 class="subtitle">Hello, I'm</h3>
+                    <h1 class="title">Mohamed Abrar S. K.</h1>
+                    <h2 class="role">Emerging Embedded Systems & IoT Engineer</h2>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="cv.pdf" target="_blank" class="btn btn-primary-outline">CV <i class="fas fa-file-pdf ml-2"></i></a>
+                        <a href="https://github.com/MOHAMED-ABRAR-5255" target="_blank" class="btn btn-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/mohamed-abrar-s-k" target="_blank" class="btn btn-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image slide-in-right">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Mohamed Abrar" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Master Bento Grid -->
+    <section id="bento-master" class="section">
+        <div class="container">
+            <div class="bento-container">
+                
+                <!-- About Block -->
+                <div class="bento-card bento-about glass-card fade-in" id="about">
+                    <h2 class="bento-title">About Me</h2>
+                    <p class="bio">I am a final-year B.Tech student in Electronics and Communication Engineering with practical experience in Embedded Systems, IoT prototyping, and Digital Design.</p>
+                    <p class="bio">I recently completed an internship in Digital Design and Verification using Verilog HDL. My focus is on developing embedded hardware, industrial automation solutions, and real-world engineering prototypes.</p>
+                </div>
+
+                <!-- Education Block -->
+                <div class="bento-card bento-edu glass-card fade-in delay-1">
+                    <h2 class="bento-title">Education</h2>
+                    <div class="education-card">
+                        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="card-content">
+                            <h3>Kalasalingam Academy of Research and Education</h3>
+                            <p class="highlight">B.Tech ECE (Minor: UAVs)</p>
+                            <p>Expected 2027 | CGPA: 8.06</p>
+                        </div>
+                    </div>
+                    <div class="education-card mt-3">
+                        <div class="card-icon"><i class="fas fa-school"></i></div>
+                        <div class="card-content">
+                            <h3>Mary Matha Matric. Hr. Secondary School</h3>
+                            <p class="highlight">Higher Secondary Education</p>
+                            <p>Completed: 2023 | 74.66%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Block -->
+                <div class="bento-card bento-skills glass-card fade-in delay-2" id="skills">
+                    <h2 class="bento-title">Technical Skills</h2>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Programming & CAD</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Embedded-C</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">OnShape</span>
+                            <span class="tag">TinkerCAD</span>
+                        </div>
+                    </div>
+                    <div class="skill-category mt-4">
+                        <h3><i class="fas fa-cogs"></i> Core Competencies</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Digital Circuit Design</span>
+                            <span class="tag">Peripheral Connectivity</span>
+                            <span class="tag">Embedded Systems</span>
+                            <span class="tag">Industrial Robotics</span>
+                            <span class="tag">Power Electronics</span>
+                            <span class="tag">Electric Vehicles</span>
+                        </div>
+                    </div>
+                    <div class="soft-skills mt-4">
+                        <span class="tag tag-soft">Analytical Thinking</span>
+                        <span class="tag tag-soft">Team Leadership</span>
+                        <span class="tag tag-soft">Problem Solving</span>
+                        <span class="tag tag-soft">Self-Learning</span>
+                    </div>
+                </div>
+
+                <!-- Experience Block -->
+                <div class="bento-card bento-exp glass-card fade-in" id="experience">
+                    <h2 class="bento-title">Experience</h2>
+                    <div class="timeline-header">
+                        <h3>Digital Design & Verification Intern</h3>
+                        <span class="timeline-date">May - Jun 2025</span>
+                    </div>
+                    <h4 class="company">MSPAND Technologies</h4>
+                    <ul class="project-list mt-3">
+                        <li>Designed and simulated a Traffic Light Controller using Verilog HDL.</li>
+                        <li>Implemented and verified a 64-bit Arithmetic Logic Unit (ALU).</li>
+                        <li>Gained practical exposure to RTL design, simulation, and debugging.</li>
+                    </ul>
+                </div>
+
+                <!-- Interests Block -->
+                <div class="bento-card bento-interest glass-card fade-in delay-1">
+                     <h2 class="bento-title">Interests</h2>
+                     <ul class="interest-list">
+                        <li><i class="fas fa-microchip"></i> Embedded Systems</li>
+                        <li><i class="fas fa-robot"></i> Industrial Automation</li>
+                        <li><i class="fas fa-network-wired"></i> IoT</li>
+                        <li><i class="fas fa-car-battery"></i> Electric Vehicles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title fade-in">Key Projects</h2>
+            <div class="project-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card fade-in">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Programmable Universal EV Controller</h3>
+                            <span class="project-date">Dec 2025 – Present</span>
+                        </div>
+                        <p class="tech-stack"><strong>Technologies:</strong> Embedded Systems, Power Electronics</p>
+                        <ul class="project-list">
+                            <li>Designing a programmable universal EV controller compatible with multiple electric two- and three-wheelers.</li>
+                            <li>Developing a configurable power and control architecture for different motor and battery configurations.</li>
+                            <li>Working on embedded hardware development, controller prototyping and power electronics integration.</li>
+                        </ul>
+                        <button class="btn btn-primary-outline btn-sm mt-3 view-project-btn" data-images="proj1-img1.png,proj1-img2.png">View Gallery</button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card fade-in delay-1">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Cloud Controlled Robotic Arm</h3>
+                            <span class="project-date">Jul 2025 – Nov 2025</span>
+                        </div>
+                        <p class="tech-stack"><strong>Technologies:</strong> STM32F103RB, Embedded Systems</p>
+                        <ul class="project-list">
+                            <li>Developed a cloud-controlled robotic arm with real-time video monitoring.</li>
+                            <li>Responsible for STM32 microcontroller interfacing and embedded hardware implementation.</li>
+                            <li>Integrated peripheral devices and validated the complete prototype.</li>
+                        </ul>
+                        <button class="btn btn-primary-outline btn-sm mt-3 view-project-btn" data-images="proj2-img1.png,proj2-img2.jpg,proj2-img3.png,proj2-img4.png">View Gallery</button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card fade-in">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>IoT Attendance Monitoring System</h3>
+                            <span class="project-date">Jul 2024 – Nov 2024</span>
+                        </div>
+                        <p class="tech-stack"><strong>Technologies:</strong> ESP32 T-Display S3, IoT</p>
+                        <ul class="project-list">
+                            <li>Developed an IoT-based attendance monitoring system using the ESP32 T-Display S3.</li>
+                            <li>Implemented hardware integration and peripheral interfacing.</li>
+                            <li>Tested and validated the complete embedded prototype.</li>
+                        </ul>
+                        <button class="btn btn-primary-outline btn-sm mt-3 view-project-btn" data-images="proj3-img1.png,proj3-img2.png,proj3-img3.png,proj3-img4.png,proj3-img5.png">View Gallery</button>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card fade-in delay-1">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Electricity Gen. using Piezoelectric Crystals</h3>
+                            <span class="project-date">Dec 2023 – Apr 2024</span>
+                        </div>
+                        <p class="tech-stack"><strong>Technologies:</strong> Power Electronics</p>
+                        <ul class="project-list">
+                            <li>Developed a prototype demonstrating electricity generation using piezoelectric crystals.</li>
+                            <li>Led hardware development and coordinated testing activities.</li>
+                        </ul>
+                        <button class="btn btn-primary-outline btn-sm mt-3 view-project-btn" data-images="proj4-img1.png,proj4-img2.png,proj4-img3.png,proj4-img4.png">View Gallery</button>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card glass-card fade-in">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>3D Printed Mobile Charger with Holder</h3>
+                            <span class="project-date">Jul 2023 – Nov 2023</span>
+                        </div>
+                        <p class="tech-stack"><strong>Technologies:</strong> OnShape, CAD</p>
+                        <ul class="project-list">
+                            <li>Designed a 3D printable mobile charger holder using CAD software.</li>
+                            <li>Applied enclosure design principles and component fitting techniques.</li>
+                        </ul>
+                        <button class="btn btn-primary-outline btn-sm mt-3 view-project-btn" data-images="proj5-img1.jpg,proj5-img2.jpg">View Gallery</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section">
+        <div class="container">
+            <h2 class="section-title fade-in">Achievements</h2>
+            
+            <div class="achievements-grid">
+                
+                <!-- Patents Column -->
+                <div class="achievements-column fade-in">
+                    <h3><i class="fas fa-certificate"></i> Patents Filed</h3>
+                    
+                    <div class="achievement-card glass-card">
+                        <div class="achievement-header">
+                            <h4>PyroSentinal</h4>
+                            <span class="achievement-date">Feb 2026</span>
+                        </div>
+                        <p>AI-powered LoRa-based low-power forest fire early detection system.</p>
+                        <p>Designed an intelligent communication framework using Particle Swarm Optimization (PSO)-optimized mesh architecture.</p>
+                    </div>
+
+                    <div class="achievement-card glass-card mt-3">
+                        <div class="achievement-header">
+                            <h4>AI-Based Interactive Smith Chart</h4>
+                            <span class="achievement-date">May 2026</span>
+                        </div>
+                        <p>Developed an AI-based interactive Smith Chart for simplified digital learning and visualization.</p>
+                    </div>
+                </div>
+
+                <!-- Hackathons Column -->
+                <div class="achievements-column fade-in delay-1">
+                    <h3><i class="fas fa-trophy"></i> Hackathons</h3>
+                    
+                    <div class="achievement-card glass-card">
+                        <div class="achievement-header">
+                            <h4>IoT Crowd Monitoring (N8N FlowFusion)</h4>
+                            <span class="achievement-badge gold">1st Prize</span>
+                        </div>
+                        <p class="achievement-date">Feb 2026</p>
+                        <p>Developed an IoT-based crowd monitoring system integrated with automated mobile notifications and workflow automation.</p>
+                    </div>
+
+                    <div class="achievement-card glass-card mt-3">
+                        <div class="achievement-header">
+                            <h4>Intelligent Toll Booth (Cadence Virtuoso)</h4>
+                            <span class="achievement-badge bronze">3rd Prize</span>
+                        </div>
+                        <p class="achievement-date">Nov 2025</p>
+                        <p>Designed and developed an intelligent toll booth prototype using Cadence Virtuoso, gaining hands-on analog/digital circuit design experience.</p>
+                    </div>
+                    
+                    <div class="achievement-card glass-card mt-3">
+                        <div class="achievement-header">
+                            <h4>Blood Sugar & Car Dashboard Systems</h4>
+                        </div>
+                        <p>Developed a GUI-based health monitoring system (Nov 2025) and a real-time car dashboard displaying speed, RPM, and temps (Sep 2024).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="memberships glass-card fade-in mt-5">
+                <h3><i class="fas fa-users"></i> Professional Memberships</h3>
+                <ul>
+                    <li>ACM India Member</li>
+                    <li>KARE ACM SIGBED Student Chapter Member</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title fade-in text-center">Get In Touch</h2>
+            <p class="contact-desc fade-in text-center">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            
+            <div class="contact-info fade-in">
+                <a href="mailto:abuabrar098@gmail.com" class="contact-card glass-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>abuabrar098@gmail.com</p>
+                </a>
+                <a href="tel:+919994290790" class="contact-card glass-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone</h4>
+                    <p>+91 9994290790</p>
+                </a>
+                <a href="https://linkedin.com/in/mohamed-abrar-s-k" target="_blank" class="contact-card glass-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                    <p>mohamed-abrar-s-k</p>
+                </a>
+                <div class="contact-card glass-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location</h4>
+                    <p>Periyakulam, Tamil Nadu</p>
+                </div>
+            </div>
+            
+            <div class="contact-cta fade-in">
+                <a href="https://wa.me/919994290790" target="_blank" class="btn btn-primary btn-large">Say Hello <i class="fab fa-whatsapp ml-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content glass-card fade-in">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            
+            <div class="slideshow-container">
+                <img src="" alt="Project Image" class="slideshow-image" id="slideshow-img">
+                
+                <div class="slideshow-controls">
+                    <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="slide-indicators" id="slide-indicators"></div>
+            </div>
+            
+            <div class="modal-details">
+                <h3 id="modal-title">Project Title</h3>
+                <div id="modal-desc" class="modal-desc-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#">Abrar<span>.</span></a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/MOHAMED-ABRAR-5255" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/mohamed-abrar-s-k" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">© 2026 Mohamed Abrar S. K. Built with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
